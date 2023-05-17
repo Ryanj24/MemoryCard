@@ -1,0 +1,18 @@
+.headerBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 10px 0;
+    font-size: 25px;
+    width: 100%;
+}
+
+.headerBanner h1 {
+    margin-bottom: 20px;
+}
+
+.headerBanner p {
+    font-size: 20px;
+}

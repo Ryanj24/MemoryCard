@@ -1,0 +1,22 @@
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.scores div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.scores > div:first-child {
+    margin-right: 50px;
+}

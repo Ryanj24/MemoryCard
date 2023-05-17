@@ -3,7 +3,14 @@ import '../styling/ScoreCard.css'
 
 const ScoreCard = () => {
   return (
-    <div>ScoreCard</div>
+    <div className='scores'>
+        <div className='current-score'>
+            <p>Score: 0</p>
+        </div>
+        <div className='high-score'>
+            <p>High Score: 3</p>
+        </div>
+    </div>
   )
 }
 

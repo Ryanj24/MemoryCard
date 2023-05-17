@@ -9,3 +9,9 @@ body {
   width: 100vw;
   background-color: aqua;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
