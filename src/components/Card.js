@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styling/Card.css'
-import data from '../data.js'
 
-const Card = ({ brandName, imgSrc}) => {
+const Card = ({ id, brandName, imgSrc, handleClick}) => {
   return (
-    <div className='card'>
-        <div className='img-container'>
+    <div className='card' id={id} onClick={handleClick}>
+      <img src={imgSrc} alt={brandName}></img>
+        {/*<div className='img-container' id={id} onClick={handleClick}>
             <img src={imgSrc} alt={brandName}></img>
-        </div>
+  </div>*/}
     </div>
   )
 }

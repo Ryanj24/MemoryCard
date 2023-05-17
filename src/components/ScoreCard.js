@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styling/ScoreCard.css'
 
-const ScoreCard = () => {
+const ScoreCard = ({ score, setScore, highScore, setHighScore }) => {
   return (
     <div className='scores'>
         <div className='current-score'>

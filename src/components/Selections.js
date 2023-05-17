@@ -3,14 +3,16 @@ import '../styling/Selections.css'
 import data from '../data.js'
 import Card from './Card'
 
-const Selections = () => {
+const Selections = ({ selectedCard, setSelectedCard, previousCards, setPreviousCards, handleClick }) => {
   return (
     <div className='card-grid'>
       {data.map(brand => 
         <Card 
         key={brand.id}
+        id={brand.id}
         brandName={brand.brand}
-        imgSrc={brand.img}/>
+        imgSrc={brand.img}
+        handleClick={handleClick}/>
       )}
     </div>
   )
