@@ -4,6 +4,9 @@ import data from '../data.js'
 import Card from './Card'
 
 const Selections = ({ selectedCard, setSelectedCard, previousCards, setPreviousCards, handleClick }) => {
+
+
+
   return (
     <div className='card-grid'>
       {data.map(brand => 
@@ -12,7 +15,8 @@ const Selections = ({ selectedCard, setSelectedCard, previousCards, setPreviousC
         id={brand.id}
         brandName={brand.brand}
         imgSrc={brand.img}
-        handleClick={handleClick}/>
+        handleClick={handleClick}
+        />
       )}
     </div>
   )
