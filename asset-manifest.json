@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/MemoryCard/static/css/main.126d2eac.css",
+    "main.js": "/MemoryCard/static/js/main.aafdc63e.js",
+    "static/media/main-bg.jpg": "/MemoryCard/static/media/main-bg.165ff7ae3dc82625cb36.jpg",
+    "static/media/Alfa-Romeo.png": "/MemoryCard/static/media/Alfa-Romeo.1a4fbafcaa5fd8dafbf7.png",
+    "static/media/Rolls-Royce.png": "/MemoryCard/static/media/Rolls-Royce.a20b19b6d10dd2ea98fa.png",
+    "static/media/Porsche.png": "/MemoryCard/static/media/Porsche.0fc1d7099fac33e8dd92.png",
+    "static/media/Lamborghini.png": "/MemoryCard/static/media/Lamborghini.84274311b8cc1600e22b.png",
+    "static/media/Aston-Martin.png": "/MemoryCard/static/media/Aston-Martin.ab3d64fef4940d77a838.png",
+    "static/media/Bentley.png": "/MemoryCard/static/media/Bentley.816740aac84d072f21cd.png",
+    "static/media/Corvette.png": "/MemoryCard/static/media/Corvette.b299c662460a49201c99.png",
+    "static/media/Jaguar.png": "/MemoryCard/static/media/Jaguar.9e0c8aec457a6254c806.png",
+    "static/media/Mercedes.png": "/MemoryCard/static/media/Mercedes.ccb91e133ae245b500b1.png",
+    "static/media/Ford.png": "/MemoryCard/static/media/Ford.66d54ecd3cdb8cce4839.png",
+    "static/media/McLaren.png": "/MemoryCard/static/media/McLaren.5a2a982732ee7575a357.png",
+    "static/media/BMW.png": "/MemoryCard/static/media/BMW.6f5051696a3287964a6a.png",
+    "static/media/Audi.png": "/MemoryCard/static/media/Audi.39d8d6a41ebbc157dcd2.png",
+    "static/media/Ferrari.png": "/MemoryCard/static/media/Ferrari.fba39e528307526d3b9b.png",
+    "static/media/Maserati.png": "/MemoryCard/static/media/Maserati.7c2df560e78497774139.png",
+    "index.html": "/MemoryCard/index.html",
+    "main.126d2eac.css.map": "/MemoryCard/static/css/main.126d2eac.css.map",
+    "main.aafdc63e.js.map": "/MemoryCard/static/js/main.aafdc63e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.126d2eac.css",
+    "static/js/main.aafdc63e.js"
+  ]
+}
