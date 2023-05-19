@@ -84,7 +84,7 @@ function App() {
       currentScore++;
       currentHighScore++;
 
-      if (currentScore === 9) {
+      if (currentScore === 15) {
         gameOver();
       }
       setScores({score: currentScore, highScore: currentHighScore})
