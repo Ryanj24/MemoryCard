@@ -23,7 +23,7 @@ function App() {
   }, [scores.score])
 
 
-  if (previousCards.length === 9) {
+  if (previousCards.length === 15) {
    gameOver();
   }
 
