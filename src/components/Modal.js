@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styling/Modal.css'
 
-const Modal = ({ scores, setScores, previousCards, setPreviousCards }) => {
+const Modal = ({ scores, setScores, setPreviousCards }) => {
 
   function restartGame() {
     document.querySelector('.modal-container').classList.remove('active');
-    
+
     setScores({ score: 0, highScore: 0 })
     setPreviousCards([]);
   }

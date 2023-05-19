@@ -9,8 +9,6 @@ import data from './data';
 function App() {
 
   // Score & High score states
-  //const [score, setScore] = useState(0);
-  //const [highScore, setHighScore] = useState(0);
   const [scores, setScores] = useState({ score: 0, highScore: 0 })
 
   // Set state for the card clicked by user
@@ -44,8 +42,6 @@ function App() {
         if (!checkPreviousState(data[i])) {
 
           // If not, add the selected card to the array of previously selected cards
-          //setSelectedCard(data[i])
-          //setScore(score => score + 1)
           updateScores()
           setPreviousCards([...previousCards, data[i]])
         } else {
@@ -53,7 +49,6 @@ function App() {
         }
       }
     }
-    //gameOver()
   }
 
   function checkPreviousState(obj) {
@@ -97,14 +92,9 @@ function App() {
 
   function gameOver() {
 
+    // Select the modal container from the DOM and add a class of active to display it
     document.querySelector('.modal-container').classList.add('active')
-    /* If length of previous cards is 9 & score is 9 then all cards have been selected
-    // so game should end
-    if (score === 9) {
-      document.querySelector('.modal-container').classList.add('active')
-    } else if (previousCards.length === 9) {
-      document.querySelector('.modal-container').classList.add('active')
-    }*/
+    
   }
 
   return (
