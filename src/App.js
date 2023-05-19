@@ -45,10 +45,12 @@ function App() {
           setPreviousCards([...previousCards, data[i]])
         } else {
 
-          let resetScore = 0;
+          //let resetScore = 0;
 
+          /*
           setScores(prevState => ({...prevState, score: resetScore}));
-          setPreviousCards([])
+          setPreviousCards([])*/
+          resetScore();
         }
       }
     }
@@ -93,6 +95,11 @@ function App() {
       }
       setScores({score: currentScore, highScore: currentHighScore})
     }
+  }
+
+  function resetScore() {
+    setScores(prevState => ({...prevState, score: 0}));
+    setPreviousCards([])
   }
 
   function gameOver() {
