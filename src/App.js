@@ -84,6 +84,8 @@ function App() {
       currentScore++;
       currentHighScore++;
 
+      // Check if the player has reached a score of 15 (all cards correctly remembered)
+      // and if so, call game over function
       if (currentScore === 15) {
         gameOver();
       }
