@@ -20,8 +20,7 @@ function App() {
   // UseEffect to randomise the order of the cards that updates after every click
   useEffect(() => {
     data.sort(() => (Math.random() > 0.5) ? 1 : -1);
-  }, [scores.score])
-
+  })
 
   if (previousCards.length === 15) {
    gameOver();
