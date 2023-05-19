@@ -78,9 +78,10 @@ function App() {
     // Check if current score is less than the current high score
     if (scores.score < scores.highScore) {
 
+      // Increment current score
       currentScore++;
+      
       // If so, update only the score value in state
-      //setScores(prevState => ({...prevState, score: prevState.score++}))
       setScores(prevState => ({...prevState, score: currentScore}))
       
       
