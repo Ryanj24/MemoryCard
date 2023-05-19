@@ -2,7 +2,7 @@ import './index.css'
 import HeadBanner from './components/HeadBanner';
 import ScoreCard from './components/ScoreCard';
 import Selections from './components/Selections';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import data from './data';
 
 function App() {
@@ -17,6 +17,13 @@ function App() {
 
   // Set state for all previously clicked cards
   const [previousCards, setPreviousCards] = useState([]);
+
+  // UseEffect to randomise the order of the cards that updates after every click
+  useEffect(() => {
+    data.sort(() => (Math.random() > 0.5) ? 1 : -1);
+  }, [scores.score])
+
+
 
   function handleClick(e) {
 
