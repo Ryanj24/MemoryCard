@@ -1,0 +1,28 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkorange;
+    padding: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+.modal h1 {
+    margin-bottom: 50px;
+}
+
+.modal h3 {
+    margin-bottom: 30px;
+}
+
+.modal button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.modal button:hover {
+    cursor: pointer;
+}

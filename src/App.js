@@ -2,6 +2,7 @@ import './index.css'
 import HeadBanner from './components/HeadBanner';
 import ScoreCard from './components/ScoreCard';
 import Selections from './components/Selections';
+import Modal from './components/Modal';
 import { useState, useEffect } from 'react';
 import data from './data';
 
@@ -49,6 +50,7 @@ function App() {
         }
       }
     }
+    //gameOver()
   }
 
   function checkPreviousState(obj) {
@@ -82,7 +84,17 @@ function App() {
       // both values in state
       currentScore++;
       currentHighScore++;
+      gameOver(currentScore);
       setScores({score: currentScore, highScore: currentHighScore})
+    }
+  }
+
+  function gameOver(score) {
+
+    // If length of previous cards is 9 & score is 9 then all cards have been selected
+    // so game should end
+    if (score === 9) {
+      document.querySelector('.modal-container').classList.add('active')
     }
   }
 
@@ -100,6 +112,14 @@ function App() {
       setPreviousCards={setPreviousCards}
       handleClick={handleClick}
       />
+      <div className='modal-container'>
+        <Modal 
+        scores={scores} 
+        setScores={setScores}
+        previousCards={previousCards}
+        setPreviousCards={setPreviousCards}
+        />
+      </div>
     </div>
   );
 }
