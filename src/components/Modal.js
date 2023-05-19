@@ -14,7 +14,7 @@ const Modal = ({ scores, setScores, setPreviousCards }) => {
   return (
     <div className='modal'>
         <h1>Game Over!</h1>
-        <h3>Your Best Score: {scores.highScore}</h3>
+        <h2>You selected all cards!</h2>
         <button id='playAgainBtn' onClick={restartGame}>Play Again</button>
     </div>
   )

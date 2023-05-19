@@ -46,6 +46,7 @@ function App() {
           setPreviousCards([...previousCards, data[i]])
         } else {
           setScores(prevState => ({...prevState, score: 0}));
+          setPreviousCards([])
         }
       }
     }
