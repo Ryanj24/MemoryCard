@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MemoryCard/static/css/main.126d2eac.css",
-    "main.js": "/MemoryCard/static/js/main.14dc1fb6.js",
+    "main.js": "/MemoryCard/static/js/main.6a35d4b3.js",
     "static/media/main-bg.jpg": "/MemoryCard/static/media/main-bg.165ff7ae3dc82625cb36.jpg",
     "static/media/Alfa-Romeo.png": "/MemoryCard/static/media/Alfa-Romeo.1a4fbafcaa5fd8dafbf7.png",
     "static/media/Rolls-Royce.png": "/MemoryCard/static/media/Rolls-Royce.a20b19b6d10dd2ea98fa.png",
@@ -20,10 +20,10 @@
     "static/media/Maserati.png": "/MemoryCard/static/media/Maserati.7c2df560e78497774139.png",
     "index.html": "/MemoryCard/index.html",
     "main.126d2eac.css.map": "/MemoryCard/static/css/main.126d2eac.css.map",
-    "main.14dc1fb6.js.map": "/MemoryCard/static/js/main.14dc1fb6.js.map"
+    "main.6a35d4b3.js.map": "/MemoryCard/static/js/main.6a35d4b3.js.map"
   },
   "entrypoints": [
     "static/css/main.126d2eac.css",
-    "static/js/main.14dc1fb6.js"
+    "static/js/main.6a35d4b3.js"
   ]
 }
