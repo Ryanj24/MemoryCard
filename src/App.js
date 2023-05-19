@@ -25,6 +25,9 @@ function App() {
   }, [scores.score])
 
 
+  if (previousCards.length === 9) {
+   gameOver();
+  }
 
   function handleClick(e) {
 
@@ -84,18 +87,24 @@ function App() {
       // both values in state
       currentScore++;
       currentHighScore++;
-      gameOver(currentScore);
+
+      if (currentScore === 9) {
+        gameOver();
+      }
       setScores({score: currentScore, highScore: currentHighScore})
     }
   }
 
-  function gameOver(score) {
+  function gameOver() {
 
-    // If length of previous cards is 9 & score is 9 then all cards have been selected
+    document.querySelector('.modal-container').classList.add('active')
+    /* If length of previous cards is 9 & score is 9 then all cards have been selected
     // so game should end
     if (score === 9) {
       document.querySelector('.modal-container').classList.add('active')
-    }
+    } else if (previousCards.length === 9) {
+      document.querySelector('.modal-container').classList.add('active')
+    }*/
   }
 
   return (
